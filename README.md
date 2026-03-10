@@ -16,8 +16,8 @@ Calculatrice en ligne de commande développée en **Java (JDK 17+)**, suivant un
 
 ## Architecture
 
-Le projet suit le principe **Single Responsibility** (SRP) — chaque classe a un rôle unique.
-
+Le projet suit le principe **Single Responsibility** (SRP) — chaque classe a un rôle unique
+```
 src/
 ├── exceptions/
 │ ├── ExpressionInvalideException.java
@@ -64,7 +64,7 @@ tests/
 ├── TestCalculateur.java
 ├── TestCalculatrice.java
 └── TestInterfaceUtilisateur.java
-
+```
 ---
 
 ## Flux d'exécution
